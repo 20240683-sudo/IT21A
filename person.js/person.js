@@ -1,4 +1,4 @@
-class person{
+class Person{
     
     constructor(name,age,occupation){
         this.name = name;
@@ -18,7 +18,7 @@ class person{
     }
 }
 
-const person1 = new person("Coco Martin",24,"Masahista");
+const Person1 = new Person("Coco Martin",24,"Masahista");
 
-person1.getName();
-person1.displayInfo();
+Person1.getName();
+Person1.displayInfo();
